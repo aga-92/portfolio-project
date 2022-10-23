@@ -1,8 +1,38 @@
-h1 {
-  font-family: "Advent Pro", sans-serif;
+:root {
+  --primary-color: #b8ac80;
+  --secondary-color: #7d8a5e;
+  --heading-font-family: "Advent Pro", sans-serif;
+}
+
+.hero {
+  text-align: center;
+  padding: 150px;
+  color: white;
+  background-image: url("/photos/background-photo.png");
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  font-family: var(--heading-font-family);
   font-weight: medium;
+  font-size: 96px;
 }
 p {
   font-family: "Roboto Flex", sans-serif;
   font-weight: medium;
+}
+.btn-find-out-more {
+  background: var(--secondary-color);
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: medium;
+  padding: 10px 45px;
+}
+.btn-find-out-more:hover {
+  background: #6e7953;
 }
