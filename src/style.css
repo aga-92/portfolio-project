@@ -4,10 +4,13 @@
   --heading-font-family: "Advent Pro", sans-serif;
 }
 
+.body {
+  margin: 0 auto;
+}
 .hero {
   text-align: center;
-  padding: 150px;
-  color: white;
+  padding: 150px 20px;
+  color: #323c19;
   background-image: url("/photos/background-photo.png");
   width: 100vw;
   background-position: center;
@@ -20,9 +23,19 @@ h2 {
   font-weight: medium;
   font-size: 96px;
 }
-p {
+.hero h1 {
+  color: white;
+}
+.hero p {
   font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.5;
+}
+.hero h3 {
+  font-size: 35px;
   font-weight: medium;
+  font-family: "Roboto Flex", sans-serif;
 }
 .btn-find-out-more {
   background: var(--secondary-color);
@@ -35,4 +48,17 @@ p {
 }
 .btn-find-out-more:hover {
   background: #6e7953;
+}
+
+.painting-container {
+  background: var(--primary-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 87px;
+  }
+  .hero {
+    padding: 50px 10px;
+  }
 }
