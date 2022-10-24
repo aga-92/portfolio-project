@@ -10,7 +10,7 @@
 .hero {
   text-align: center;
   padding: 150px 20px;
-  color: #323c19;
+  color: #1c1127;
   background-image: url("/photos/background-photo.png");
   width: 100vw;
   background-position: center;
@@ -26,23 +26,31 @@ h2 {
 .hero h1 {
   color: white;
 }
+
 .hero p {
-  font-family: "Roboto Flex", sans-serif;
-  font-weight: 500;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
   font-size: 22px;
   line-height: 1.5;
 }
 .hero h3 {
   font-size: 35px;
-  font-weight: medium;
-  font-family: "Roboto Flex", sans-serif;
+  font-weight: 600;
+  font-family: "Roboto Mono", monospace;
 }
+.bold-text {
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+}
+
 .btn-find-out-more {
   background: var(--secondary-color);
   border: none;
   text-transform: uppercase;
   color: white;
-  font-family: "Roboto Flex", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: medium;
   padding: 10px 45px;
 }
