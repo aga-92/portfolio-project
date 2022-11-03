@@ -34,12 +34,18 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/src/style.css" />
-    <title>Document</title>
+    <title>About - Aga's Art</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg p-3">
       <div class="container-fluid">
-        <a class="navbar-brand logo-text" href="#">Aga's Art</a>
+        <a
+          class="navbar-brand logo-text"
+          href="/index.html"
+          alt="Aga's Art logo"
+          title="Homepage"
+          >Aga's Art</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -75,7 +81,7 @@
       <h1 class="text-center">About me</h1>
       <div class="row">
         <div class="col-sm-8 p-5 text-center about-content">
-          <h3>Hi, I'm Aga</h3>
+          <h2>Hi, I'm Aga</h2>
           <p>
             I come from Poland but live in Norway and
             <strong>I love to paint in my free time</strong> . First, I started
@@ -87,17 +93,25 @@
             mountain area that I happened to live in. Lately, I've also been
             learning how to code.
           </p>
-          <a href="/contact.html" class="btn btn-find-out-more shadow mt-4 me-3"
-            >contact me</a
-          >
-          <a href="/gallery.html" class="btn btn-find-out-more shadow mt-4"
-            >Gallery</a
-          >
+          <div class="button-container">
+            <a
+              href="/contact.html"
+              class="btn button-portfolio shadow mt-4 me-3 contact-button"
+              title="Contact Aga"
+              >contact me</a
+            >
+            <a
+              href="/gallery.html"
+              class="btn button-portfolio shadow mt-4"
+              title="Gallery"
+              >Gallery</a
+            >
+          </div>
         </div>
         <div class="col-sm-4">
           <img
             src="/photos/profile.png"
-            alt=""
+            alt="profile picture"
             class="img-fluid rounded mt-5"
           />
         </div>
@@ -105,19 +119,26 @@
     </div>
     <footer>
       <a
+        href="/index.html"
+        class="d-flex justify-content-end me-5 mt-0 fw-semibold"
+      >
+        ← Back to homepage
+      </a>
+      <a
         href="mailto:aga.jack92@gmail.com"
         class="mail-link d-flex justify-content-center mb-3 mt-3"
+        title="Email Aga"
         >aga.jack92@gmail.com</a
       >
       <div class="social-links d-flex justify-content-center">
         <a href="https://www.instagram.com/aga_j.92/"
-          ><i class="fa-brands fa-instagram"></i
+          ><i class="fa-brands fa-instagram" title="Instagram profile"></i
         ></a>
         <a href="https://github.com/aga-92"
-          ><i class="fa-brands fa-github"></i
+          ><i class="fa-brands fa-github" title="Github profile"></i
         ></a>
         <a href="https://www.facebook.com/agnieszka.jackiewicz.92"
-          ><i class="fa-brands fa-facebook"></i
+          ><i class="fa-brands fa-facebook" title="Facebook profile"></i
         ></a>
       </div>
       <p class="text-center mt-4">

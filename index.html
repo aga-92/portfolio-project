@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta
+      name="description"
+      content="Are you looking for some new paintings on your wall? Check out my website and maybe you will find something perfect for you!"
+    />
+    <title>Hobby painter Aga - Aga's Art</title>
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -35,12 +39,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/src/style.css" />
-    <title>Document</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg p-3">
       <div class="container-fluid">
-        <a class="navbar-brand logo-text" href="#">Aga's Art</a>
+        <a
+          class="navbar-brand logo-text"
+          href="/index.html"
+          alt="Aga's Art logo"
+          title="Homepage"
+          >Aga's Art</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -60,33 +69,40 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
+              <a class="nav-link" href="/about.html" title="About">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/gallery.html">Gallery</a>
+              <a class="nav-link" href="/gallery.html" title="Gallery"
+                >Gallery</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a class="nav-link" href="/contact.html" title="Contact"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="content-container">
+    <div class="content-container" id="content-container">
       <h1 class="mb-5">
         Aga's Art <i class="fa-solid fa-palette palette-icon"></i>
       </h1>
-      <h3 class="mt-5">Hello, I'm Aga</h3>
+      <h2 class="mt-5">Hello, I'm Aga</h2>
       <p class="mb-5">
-        A passionate <span class="bold-text">hobby painter</span> from Poland,
-        based in Norway. <br />
+        A passionate <strong>hobby painter</strong> from Poland, based in
+        Norway. <br />
         I'm still looking for my own style, but I also enjoy trying different
         techniques every time I take out my painting utensils. <br />
         You can check some of my paintings below. <br />Enjoy!
       </p>
 
       <div>
-        <a href="/about.html" class="btn btn-find-out-more shadow"
+        <a
+          href="/about.html"
+          class="btn button-portfolio shadow"
+          title="Find out more"
           >Find out more</a
         >
       </div>
@@ -97,21 +113,21 @@
           <div class="col-sm-4">
             <img
               src="/photos/painting-2.png"
-              alt=""
+              alt="asbtract painting"
               class="img-fluid rounded mt-5"
             />
           </div>
           <div class="col-sm-4">
             <img
               src="/photos/painting-3.png"
-              alt=""
+              alt="abstract painting"
               class="img-fluid rounded mt-5"
             />
           </div>
           <div class="col-sm-4">
             <img
               src="/photos/painting-5.png"
-              alt=""
+              alt="landscape painting"
               class="img-fluid rounded mt-5"
             />
           </div>
@@ -120,21 +136,21 @@
           <div class="col-sm-4">
             <img
               src="/photos/painting-4.png"
-              alt=""
+              alt="landscape painting"
               class="img-fluid rounded mt-5"
             />
           </div>
           <div class="col-sm-4">
             <img
               src="/photos/painting-6.png"
-              alt=""
+              alt="abstract painting"
               class="img-fluid rounded mt-5"
             />
           </div>
           <div class="col-sm-4">
             <img
               src="/photos/painting-7.png"
-              alt=""
+              alt="landscape painting"
               class="img-fluid rounded mt-5"
             />
           </div>
@@ -143,19 +159,26 @@
     </div>
     <footer>
       <a
+        href="/index.html#content-container"
+        class="d-flex justify-content-end me-5 mt-0 fw-semibold"
+      >
+        ↑ Back to the top
+      </a>
+      <a
         href="mailto:aga.jack92@gmail.com"
         class="mail-link d-flex justify-content-center mb-3 mt-3"
+        title="Email Aga"
         >aga.jack92@gmail.com</a
       >
       <div class="social-links d-flex justify-content-center">
         <a href="https://www.instagram.com/aga_j.92/"
-          ><i class="fa-brands fa-instagram"></i
+          ><i class="fa-brands fa-instagram" title="Instagram profile"></i
         ></a>
         <a href="https://github.com/aga-92"
-          ><i class="fa-brands fa-github"></i
+          ><i class="fa-brands fa-github" title="Github profile"></i
         ></a>
         <a href="https://www.facebook.com/agnieszka.jackiewicz.92"
-          ><i class="fa-brands fa-facebook"></i
+          ><i class="fa-brands fa-facebook" title="Facebook profile"></i
         ></a>
       </div>
       <p class="text-center mt-4">

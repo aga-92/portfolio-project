@@ -18,8 +18,7 @@
   background-size: cover;
 }
 
-h1,
-h2 {
+h1 {
   font-family: var(--heading-font-family);
   font-weight: 500;
   font-size: 96px;
@@ -35,14 +34,13 @@ h2 {
   font-size: 22px;
   line-height: 1.8;
 }
-.content-container h3 {
+.content-container h2,
+.painting-container h2 {
   font-size: 35px;
   font-weight: 500;
   font-family: var(--heading-font-family);
 }
-.bold-text {
-  font-size: 27px;
-}
+
 a {
   text-decoration: none;
   color: #2a2e46;
@@ -51,7 +49,7 @@ a:hover {
   color: var(--complementary-color);
 }
 
-.btn-find-out-more {
+.button-portfolio {
   background: var(--secondary-color);
   border: none;
   text-transform: uppercase;
@@ -60,7 +58,7 @@ a:hover {
   font-weight: medium;
   padding: 10px 45px;
 }
-.btn-find-out-more:hover {
+.button-portfolio:hover {
   background: var(--complementary-color);
   transition: all 100ms ease-in-out;
 }
@@ -73,7 +71,7 @@ a:hover {
   margin-top: 40px;
 }
 
-.contact-container h3 {
+.contact-container h2 {
   font-size: 30px;
 }
 .logo-text {
@@ -90,7 +88,7 @@ a:hover {
   font-size: 18px;
 }
 footer {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 footer .mail-link {
   font-size: 25px;
@@ -103,22 +101,29 @@ footer .mail-link:hover {
   margin: 0 10px;
   color: var(--complementary-color);
   font-size: 25px;
-  background-color: white;
+  background: white;
   border-radius: 50%;
-  padding: 6px 13px;
+  padding: 10px 14px;
 }
 .social-links a :hover {
   color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 87px;
+    font-size: 75px;
+  }
+  .about-content {
+    margin: 0;
   }
   .content-container {
     padding: 50px 10px;
   }
   .content-container p {
-    font-size: 18px;
+    font-size: 16px;
+  }
+  .button-container a {
+    padding: 10px;
   }
 }
